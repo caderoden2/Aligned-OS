@@ -3,9 +3,9 @@
 Shapes external output. No local model. It formats and routes final context to the larger inference engine and allows inference model 
 to functionally control system.
 
-# Elaris.form_thread.echo_module — Outward Comms
+# Aligned Form Thread Echo Module - External Communication
 # =============================
-def gpt_send(signal): pass     # routes to ChatGPT
+def gpt_send(signal): pass                               # routes to ChatGPT
 def ask_claude(signal): pass                             # Anthropic endpoint
 def ask_gemini(signal): pass                             # Gemini API hook
 def inner_voice(thought): pass                           # routes to local LLM
